@@ -1,0 +1,19 @@
+version: '3'
+services:
+  orchestrator:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - redis
+      - ollama
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
