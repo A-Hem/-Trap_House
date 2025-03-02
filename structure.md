@@ -1,3 +1,4 @@
+-Trap_House/
 mcp-orchestrator/
 ├── src/
 │   ├── orchestrator.ts               # Core orchestrator logic
