@@ -1,10 +1,5 @@
-An application that combines AI model outputs, blockchain technology, and AI-driven data organization - the trap house will be the database of all data created with the Tangerine Trap - Ongoing Competition.
- 
- Let's break down how we can approach this project, focusing on the coding aspects.
-Overview of the Solution
-We'll need to consider a few key components:
- * User Input and AI Model Interaction: This involves handling user input, passing it to the desired AI models, and capturing their outputs.  We'll need to choose the appropriate libraries or APIs for the specific AI models DAO intends to use.
- * Blockchain Integration:  This part focuses on sending the AI model outputs to a blockchain for decentralized storage. Dao will need to select a blockchain platform (e.g., Ethereum, Hyperledger Fabric) and utilize its respective libraries to interact with it.  This will involve creating transactions to store the data on the blockchain.
+Improving user experience, development, and creating value in the context of AI Model Interaction: This involves handling user input, processing -> passing it to the desired AI models. 
+ * Blockchain Integration:  This part focuses on sending the AI model outputs to a blockchain for decentralized storage.
  * AI-Driven Data Organization:  This segment deals with organizing the data retrieved from the blockchain using AI techniques. Dao can explore methods like clustering, classification, or natural language processing (NLP), depending on the nature of the AI model outputs.
 Code and Implementation Instructions
 Let's start with a simplified example using Python, assuming you're using a hypothetical AI model and Ethereum as the blockchain platform.  We'll use the web3.py library for Ethereum interaction and assume the AI model interaction is handled by a function called get_ai_model_output(user_input).
