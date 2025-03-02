@@ -1,23 +1,23 @@
 -Trap_House/
-mcp-orchestrator/
-├── src/
-│   ├── orchestrator.ts               # Core orchestrator logic
-│   ├── workers/
-│   │   ├── task-manager.ts           # Task decomposition and execution
-│   │   └── ollama-worker.ts          # Ollama integration
-│   ├── services/
-│   │   ├── knowledge-graph.ts        # Knowledge graph service
-│   │   └── context-compressor.ts     # Context compression service
-│   ├── utils/
-│   │   ├── token-optimizer.ts        # Token optimization utilities
-│   │   └── summarizer.ts             # Code and context summarization
-│   ├── integrations/
-│   │   ├── roocode.ts                # Roo Code integration
-│   │   └── claude.ts                 # Claude integration (modular)
-│   └── server.ts                     # API server
-├── config/
-│   └── mcp-servers.yaml              # MCP server configurations
-├── docker-compose.yml                # Docker setup
-├── package.json                      # Dependencies
-├── tsconfig.json                     # TypeScript config
-└── README.md                         # Project documentation
+|-- mcp-orchestrator/
+|   |-- src/
+|   |   |-- orchestrator.ts
+|   |   |-- workers/
+|   |   |   |-- task-manager.ts
+|   |   |   |-- ollama-worker.ts
+|   |   |-- services/
+|   |   |   |-- knowledge-graph.ts
+|   |   |   |-- context-compressor.ts
+|   |   |-- utils/
+|   |   |   |-- token-optimizer.ts
+|   |   |   |-- summarizer.ts
+|   |   |-- integrations/
+|   |   |   |-- roocode.ts
+|   |   |   |-- claude.ts
+|   |   |-- server.ts
+|   |-- config/
+|   |   |-- mcp-servers.yaml
+|   |-- docker-compose.yml
+|   |-- package.json
+|   |-- tsconfig.json
+|   |-- README.md
